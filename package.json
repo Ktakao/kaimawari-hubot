@@ -5,6 +5,8 @@
   "author": "Ktakao",
   "description": "kaimawari slack",
   "dependencies": {
+    "coffee-script": "^1.12.7",
+    "hoek": "^5.0.3",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
     "hubot-google-images": "^0.2.7",
