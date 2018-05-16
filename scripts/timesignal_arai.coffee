@@ -6,5 +6,5 @@ module.exports = (robot) ->
     start:    true
     timeZone: "Asia/Tokyo"
     onTick: ->
-    robot.send {room: "#arai"}, "@新井 "+now.getHours()+"時"+now.getMinutes()+"分ですよ！新井さんおきて！！"+
+        robot.send {room: "#arai"}, "@新井 "+now.getHours()+"時"+now.getMinutes()+"分ですよ！新井さんおきて！！"
     )
