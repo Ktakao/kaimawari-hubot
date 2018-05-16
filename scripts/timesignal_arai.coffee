@@ -4,7 +4,7 @@ time = require('time')
 module.exports = (robot) ->
     
     cronjob = new cronJob(
-        cronTime: "0 7,9,12,15,18,21 * * *"
+        cronTime: "0 7,8,9,12,15,18,21 * * *"
         start:    true
         timeZone: "Asia/Tokyo"
         onTick: ->
